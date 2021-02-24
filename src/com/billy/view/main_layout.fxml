@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="133.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.billy.controller.DemoMainController">
+   <children>
+      <Label layoutX="10.0" layoutY="11.0" text="Input" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="11.0" />
+      <TextField fx:id="txtInput" layoutX="62.0" layoutY="13.0" prefHeight="39.0" prefWidth="259.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <Button layoutX="5.0" layoutY="50.0" mnemonicParsing="false" onAction="#sendQueryAction" text="Send" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+      </Button>
+      <Label layoutX="10.0" layoutY="100.0" prefHeight="27.0" prefWidth="75.0" text="Output" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="100.0" />
+      <Label fx:id="lblOutput" layoutX="105.0" layoutY="100.0" prefHeight="27.0" prefWidth="252.0" text="-" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="100.0" />
+   </children>
+</AnchorPane>
